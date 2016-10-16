@@ -57,6 +57,17 @@ hr {
 	width: 30px;
 }
 
+#logout {
+	float:left;
+	margin-left:15px;
+	color: white;
+	font-family: 'Roboto','Helvetica','Arial',sans-serif;
+	font-size: 12px;
+	height: 23px;
+	width: 34px;
+	
+}
+
 #logo {
 	float: right;
 	margin-right: 15px;
