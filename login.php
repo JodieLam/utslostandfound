@@ -79,9 +79,7 @@ if(isset($_POST['submitLogin'])){
 
 		
 
-		<div class="loginback">
-			<a href="index.php"><img id="loginbackbtn" src="images/arrow_back.png" alt="Return"></a>
-		</div>
+		
 	</div>
 </body>
 </html>
