@@ -27,7 +27,7 @@
 		<header>
 		<div class="currentLostItems">
 			<div class="blueheader">
-				<div id="logout"><a href="logout.php">Logout</a></div>
+				<a href="logout.php"><div id="logout">Logout</div></a>
 					<span>My Lost Items</span>
 				<img id="logo" src="images/logo.png" alt="logo">
 			</div>
