@@ -2,10 +2,10 @@
 
 class db{
 	
-	private $dbHost = "localhost";
-	private $dbUser = "root";
-	private $dbPass = "";
-	private $dbName = "lostfound";
+	private $dbHost = "m7wltxurw8d2n21q.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306";
+	private $dbUser = "x645eid73vsny4jb";
+	private $dbPass = "n6bu8crsdwq0vogb";
+	private $dbName = "n999seyf40e9h3ah";
 	protected $con;
 	
 	public function __construct(){
