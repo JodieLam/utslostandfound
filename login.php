@@ -69,7 +69,7 @@ if(isset($_POST['submitLogin'])){
 			  <div class="slider round"></div>
 			</label>
 					<div class="loginbuttoncontainer">
-	                    <button id="btn" type"Submit">
+	                    <button id="btn" type="Submit">
 	                      Login
 	                    </button>
 	        </a>
