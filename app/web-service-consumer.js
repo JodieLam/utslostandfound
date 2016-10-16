@@ -7,6 +7,6 @@ WebServiceConsumer.prototype = {
 	constructor: WebServiceConsumer,
 	sendModuleRequest: function(moduleName, arguments) {
 		arguments.module = moduleName;
-		$.post("https://utslf.herokuapp.com/service-producer/RequestHandler.php", arguments, this.callback);
+		$.post("service-producer/RequestHandler.php", arguments, this.callback);
 	}
 };
