@@ -1,0 +1,386 @@
+body, html {
+	background-color: #F4F9F9;
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 14px;
+	color: #434343;
+	margin:0px;
+	padding:0px;
+	height: 100%;
+
+}
+
+.hidden {
+	display: none;
+}
+
+p.nospace{
+	margin: 3px; !important
+}
+
+hr {
+	width: 100%;
+	height: 1px;
+	border: none;
+	background: #cccccc;
+	padding: 0px;
+	margin: 7px 0px 3px 0px;
+}
+
+.blueheader {
+	background-color: #336699;
+	color: white;
+	text-align:center;
+	align:center;
+	border: none;
+	padding: 15px 0px 15px 0px;
+	text-decoration: none;
+	/*display: inline-block;*/
+	box-shadow: 0px 2px 2px grey;
+	width: 100%;
+	margin:0;
+	margin-bottom: 5px
+}
+
+.whiteheader {
+	background-color: white;
+	box-shadow: 1px 1px 2px grey;
+	padding: 15px 0px 15px 0px;
+	text-align:center;
+}
+
+#returnimg {
+	float: left;
+	margin-left: 15px;
+	margin-top: -5px;
+	height: 30px;
+	width: 30px;
+}
+
+#logo {
+	float: right;
+	margin-right: 15px;
+	height: 23px;
+	width: 34px;
+}
+
+.main {
+	padding: 0px 15px 0px 15px;
+	vertical-align: middle;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lostitemcard {
+	height: 100%;
+	text-align: left;
+	background-color: white;
+	box-shadow: 1px 1px 2px grey;
+	padding: 0px 0px 3px 0px;
+	margin: 10px 0px 10px 0px;
+}
+
+.cardInfo{
+	padding: 10px 10px 0px 10px;
+	margin: 0px 0px 0px 0px;
+
+}
+
+.viewItemCard {
+	height: 100%;
+	text-align: left;
+	background-color: white;
+	box-shadow: 1px 1px 2px grey;
+	padding: 0px 0px 3px 0px;
+	margin: 10px 0px 10px 0px;
+}
+
+#cardImg {
+    display: block;
+    float:right;
+    position:relative;
+	height: 60px;
+	width: 60px;
+}
+
+#viewItemPic {
+	height: 200px;
+	width: 100px;
+}
+
+
+#individualCurrentLostItemBodyBtn {
+    width:100%;
+    text-align: center;
+    margin-top:0px;
+}
+.inner {
+    display: inline-block;
+}
+#cardBtn {
+	background: 0;
+	border: none;
+	border-radius: 2px;
+	color: #666;
+	display: block;
+	position: relative;
+	height: 36px;
+	min-width: 64px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0 8px;
+	display: inline-block;
+	font-family: 'Roboto','Helvetica','Arial',sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0;
+	overflow: hidden;
+	will-change: box-shadow,transform;
+
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+	line-height: 36px;
+	vertical-align: middle;
+
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+}
+
+#cardBtn:hover {
+    background-color: #eeeeee;
+}
+
+
+/*peta css */
+
+#btn {
+	background-color: #336699;
+	color: white;
+	text-align: center;
+	border: none;
+	padding: 15px 15px;
+	text-decoration: none;
+	display: inline-block;
+	box-shadow: 2px 2px 2px grey;
+	border-radius: 2px;
+	width: 100%;
+	font-family: 'Roboto','Helvetica','Arial',sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+#btn:hover {
+    background-color: #3876B5;
+    color: white;
+}
+.btndiv {
+	text-align: center;
+}
+
+
+#colour, #location, #subcat, #category {
+	width: 200px;
+	padding: 5px 5px;
+	margin: 0px;
+	border: 0;
+	background-color: white;
+	border-radius: 0px;
+	float: right;
+	height: 25px;
+	color: rgba(0,0,0, 0.54)
+    font-size: 0.9rem!important;
+
+  overflow: hidden;
+
+
+}
+
+#comments {
+	width: 100%;
+	height: 110px;
+	padding: 10px 10px;
+	background-color: #EDEBEB;
+	resize: none;
+	border: none;
+}
+
+label {
+	padding-bottom: 5px;
+}
+
+#dd, #mm, #yyyy {
+	border: none;
+	border-bottom: 1px solid #434343;
+	background-color : transparent;
+	width: 63px;
+	float: right;
+	margin-left: 5px;
+	}
+
+
+@media screen and (min-width: 500px) {
+	.main {
+		vertical-align: middle;
+		max-width: 300px;
+	}
+	.logincontainer {
+		vertical-align: middle;
+		max-width: 300px;
+	}
+}
+
+/*login page*/
+
+.logincontainer {
+	width: 200px;
+	padding: 0px 15px 0px 15px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+	position: relative;
+	transform: translateY(-50%);
+}
+
+#loginlogo {
+	display: block;
+    margin: 0 auto;
+	position: relative;
+	margin-bottom: 35px;
+	height: 84px;
+	width: 120px;
+}
+
+.loginbuttoncontainer {
+	margin-top: 30px;
+	position: relative;
+}
+
+.loginback {
+	margin-top: 20px;
+    position: relative;
+}
+
+#loginbackbtn {
+	display: block;
+    margin: 0 auto;
+	text-align: center;
+	height: 30px;
+	width: 30px;
+}
+
+
+input[type="date"] {
+     -webkit-align-items: center;
+     display: -webkit-inline-flex;
+     font-family: roboto;
+     font-weight: 300;
+     overflow: hidden;
+     padding: 0;
+     border: none;
+     float: right;
+     width: 200px;
+     height: 20px;
+     -webkit-padding-start: 1px;
+}
+
+input[type="text"] {
+	 background: none;
+	 border: none;
+ 	 border-bottom: 1px solid #cccccc;
+     -webkit-align-items: center;
+     display: -webkit-inline-flex;
+     font-family: roboto;
+     font-weight: 300;
+     overflow: hidden;
+     padding: 0px;
+     float: right;
+     width: 100%;
+     height: 20px;
+     margin-bottom: 10px;
+     -webkit-padding-start: 1px;
+}
+
+input[type="password"] {
+	 background: none;
+	 border: none;
+ 	 border-bottom: 1px solid #cccccc;
+     -webkit-align-items: center;
+     display: -webkit-inline-flex;
+     font-family: roboto;
+     font-weight: 300;
+     overflow: hidden;
+     padding: 0px;
+     float: right;
+     width: 100%;
+     height: 20px;
+     margin-bottom: 10px;
+     -webkit-padding-start: 1px;
+}
+
+
+/*toggle switch css from w3schools*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 20px; 
+  float: right;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: -2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #336699;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #336699;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 30px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
