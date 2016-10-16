@@ -53,7 +53,8 @@
 										</div></p>
 										
 				 <div class="btndiv">
-										<button id="btn" type="submitItemClaim">
+										<!--<button id="btn" type="submitItemClaim">-->
+					 					<button id="btn" type="submit">
 											Submit
 										</button>
 				 </div>
